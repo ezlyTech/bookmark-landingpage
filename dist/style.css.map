@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AACQ,iCAAA,CACA,sCAAA,CACA,sCAAA","file":"style.css","sourcesContent":["// Globals\n@import url('globals/_base.scss');\n@import url('globals/typography.scss');\n@import url('globals/_variables.scss');\n\n// Ribbons"]}
