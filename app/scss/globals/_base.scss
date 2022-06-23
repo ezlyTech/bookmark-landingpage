@@ -1,1 +1,112 @@
-// Global margin, paddings, etc...
+/**
+ * BLOCKS
+ */
+
+.section {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    max-width: 1164px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+body {
+    font-family: $font-primary;
+}
+
+h1 {
+    color: $color-black;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+h2 {
+    color: $color-black;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+h3 {
+    color: $color-black;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+p {
+    color: $color-black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: $color-black;
+}
+
+.button__primary {
+    background-color: $color-violet;
+    padding: 10px 24px;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+    border: 2px solid $color-violet;
+    cursor: pointer;
+    display: block;
+    color: white;
+    letter-spacing: 0.25px;
+    transition: .3s;
+    line-height: 28px;
+
+    &:hover {
+        background: #FFFFFF;
+        color: $color-violet;
+    }
+}
+
+.button__secondary {
+    padding: 10px 24px;
+    background: #F7F7F7;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+    border: 2px solid #F7F7F7;
+    cursor: pointer;
+    display: block;
+    color: $color-black;
+    letter-spacing: 0.25px;
+    transition: .3s;
+    opacity: 0.75;
+    line-height: 28px;
+
+    &:hover {
+        background: #FFFFFF;
+        border: 2px solid #5B6074;
+    }
+}
+
+
+@media only screen and (max-width: 428px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 52px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

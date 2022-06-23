@@ -1,0 +1,28 @@
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__logo {
+        
+    }
+
+    .header__navs {
+        .nav__items {
+            display: flex;
+            flex-direction: row;
+            gap: 48px;
+
+            li {
+                list-style: none;
+            }
+        }
+        .socials {
+            display: none;
+        }
+    }
+
+    .header__hamburger {
+
+    }
+}
