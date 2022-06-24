@@ -33,6 +33,13 @@
                     padding: 12px 34px;
                     box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
                     border-radius: 5px;
+                    border: 2px solid $color-red;
+
+                    &:hover {
+                        background: transparent;
+                        transition: .3s;
+                        color: $color-red;
+                    }
                 }
             }
         }
@@ -57,6 +64,24 @@
     }
 }
 
+header {
+    z-index: 100;
+}
+
+
+header.stickyHeader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.06);
+
+    .header__wrapper {
+        padding-top: 30px;
+        transition: .3s;
+    }
+
+}
 
 
 @media only screen and (max-width: 768px) {

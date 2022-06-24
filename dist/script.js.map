@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","names":["$","document","ready","on","toggleClass"],"sources":["script.js"],"mappings":"AAEAA,EAAEC,UAAUC,OAAM,WAEdF,EAAE,sBAAsBG,GAAG,SAAS,WAChCH,EAAE,oBAAoBI,YAAY"}
+{"version":3,"file":"script.js","names":["$","document","ready","on","toggleClass","window","scroll","this","scrollTop","addClass","removeClass"],"sources":["script.js"],"mappings":"AACAA,EAAEC,UAAUC,OAAM,WAEdF,EAAE,sBAAsBG,GAAG,SAAS,WAChCH,EAAE,oBAAoBI,YAAY,kBAM1CJ,EAAEK,QAAQC,QAAO,WACTN,EAAEO,MAAMC,YAAc,EACtBR,EAAE,UAAUS,SAAS,gBAGrBT,EAAE,UAAUU,YAAY"}
