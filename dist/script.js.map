@@ -1,1 +1,1 @@
-{"version":3,"file":"script.js","names":[],"sources":[],"mappings":""}
+{"version":3,"file":"script.js","names":["$","document","ready","on","toggleClass"],"sources":["script.js"],"mappings":"AAEAA,EAAEC,UAAUC,OAAM,WAEdF,EAAE,sBAAsBG,GAAG,SAAS,WAChCH,EAAE,oBAAoBI,YAAY"}
