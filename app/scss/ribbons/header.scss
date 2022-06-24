@@ -6,7 +6,9 @@
     padding-bottom: 30px;
 
     .header__logo {
-        
+        .mobile-logo {
+            display: none;
+        }
     }
 
     .header__navs {
@@ -60,6 +62,7 @@
 @media only screen and (max-width: 768px) {
 
     .header__wrapper {
+
         .header__navs {
             display: none;
         }
@@ -73,6 +76,16 @@
         position: relative;
         height: 100vh;
         align-items: baseline;
+
+        .header__logo {
+            .desktop-logo {
+                display: none;
+            }
+            .mobile-logo {
+                display: block;
+            }
+        }
+        
 
         .header__navs {
             position: absolute;
