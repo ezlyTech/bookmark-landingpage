@@ -1,0 +1,23 @@
+.tiles {
+    background-color: $color-red;
+
+    .tiles__wrapper {
+        background-color: green;
+        
+        .tiles__text {
+            background-color: yellow;
+            padding: 50px;
+        }
+
+        .tiles__image {
+
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+}
