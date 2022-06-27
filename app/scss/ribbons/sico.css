@@ -3,17 +3,14 @@
   width: 100%;
   text-align: center;
 }
-
 .sico .tiles__wrapper .tiles__container .tiles__text .featureText {
   width: 47%;
   margin-left: 27%;
 }
-
 .sico .tiles__wrapper .tiles__container #tiles__tabs {
   font-size: 14px;
   background: lightpink;
   border: 1px solid #b9cd6d;
   color: lightyellow;
   font-weight: bold;
-}
-/*# sourceMappingURL=sico.css.map */
+}/*# sourceMappingURL=sico.css.map */
