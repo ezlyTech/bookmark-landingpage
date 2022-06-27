@@ -11,9 +11,6 @@
 
 .sico .tiles__wrapper .tiles__container #tiles__tabs {
   font-size: 14px;
-}
-
-.sico .tiles__wrapper .tiles__container .ui-widget-header {
   background: lightpink;
   border: 1px solid #b9cd6d;
   color: lightyellow;
