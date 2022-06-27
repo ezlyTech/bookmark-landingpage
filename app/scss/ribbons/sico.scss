@@ -1,0 +1,35 @@
+.sico{
+    .tiles__wrapper{  
+
+    .tiles__container{
+
+        .tiles__text{
+            height: auto;
+            width: 100%;
+            text-align: center;
+    
+            .featureText{
+                width: 47%;
+                margin-left: 27%;
+            }
+          
+        } 
+        
+        #tiles__tabs{font-size: 14px;}  
+            .ui-widget-header {  
+               background:lightpink;  
+               border: 1px solid #b9cd6d;  
+               color: lightyellow;  
+               font-weight: bold;  
+        }
+    }
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+}
+

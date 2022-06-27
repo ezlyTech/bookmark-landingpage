@@ -15,3 +15,9 @@ $(window).scroll(function() {
         $("header").removeClass("stickyHeader");
         }
 })
+
+// Feature Tabs
+
+$(function() {
+    $("#tiles__tabs").tabs();
+});

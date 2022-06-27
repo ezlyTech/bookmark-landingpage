@@ -1,0 +1,22 @@
+.sico .tiles__wrapper .tiles__container .tiles__text {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.sico .tiles__wrapper .tiles__container .tiles__text .featureText {
+  width: 47%;
+  margin-left: 27%;
+}
+
+.sico .tiles__wrapper .tiles__container #tiles__tabs {
+  font-size: 14px;
+}
+
+.sico .tiles__wrapper .tiles__container .ui-widget-header {
+  background: lightpink;
+  border: 1px solid #b9cd6d;
+  color: lightyellow;
+  font-weight: bold;
+}
+/*# sourceMappingURL=sico.css.map */
