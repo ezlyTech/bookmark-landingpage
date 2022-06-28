@@ -18,10 +18,11 @@ $(window).scroll(function() {
 
 // Feature Tabs
 
-$(document).ready(functin(){
-    $(tabSelection).click(function(){
-        $(this).addClass("selected1").siblings().removeClass("selected1");
-        $(".tabSelectionContent > p").hide();
-        $($(this).data("value")).fadeIn();
-    }),
+$(document).ready(function(){ 
+    $("ul li ").click(function(){
+    $(this).addClass("selected").siblings().removeClass("selected");
+    $(".tabSectionContent > p").hide();
+    $($(this).data("value")).fadeIn();
+
+});
 });

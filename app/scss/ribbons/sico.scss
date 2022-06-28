@@ -14,7 +14,7 @@
             }
 
             .tabSection{
-                .selected1{
+                .selected{
                     color: red;
                 }
 
@@ -28,7 +28,9 @@
                         display:inline-block;
                         font-size: 20px;
                         cursor: pointer;
-                        transition: .5s;  
+                        transition: .5s;
+                        width: 30%;
+                        text-align: center;  
                     }
 
                     li:hover{
