@@ -1,30 +1,55 @@
 .sico{
-    .tiles__wrapper{  
+    .tiles__wrapper{
+        .tiles__container{
 
-    .tiles__container{
-
-        .tiles__text{
-            height: auto;
-            width: 100%;
-            text-align: center;
-    
-            .featureText{
-                width: 47%;
-                margin-left: 27%;
+            .tiles__text{
+                text-align: center;
+                .featureText{
+                    width: 540px;
+                    position: relative;
+                    height: 84px;
+                    left: 27%;
+                    right: 0%;
+                }
             }
-          
-        } 
-        
-        #tiles__tabs{
-            font-size: 14px;
-            background:lightpink;  
-            border: 1px solid #b9cd6d;  
-            color: lightyellow;  
-            font-weight: bold;  
+
+            .tabSection{
+                .selected1{
+                    color: red;
+                }
+
+                ul{
+                    margin-left: 40px;
+
+                    li{
+                        background-color: aliceblue;
+                        color: aqua;
+                        padding:10px;
+                        display:inline-block;
+                        font-size: 20px;
+                        cursor: pointer;
+                        transition: .5s;  
+                    }
+
+                    li:hover{
+                        background-color: black;
+                        color: aliceblue;
+                        font-size: 27px;
+                    }
+                }
+            }
+
+            .tabSectionContent{
+                background-color: aliceblue;
+                margin: 0 20px;
+                padding: 20px;
+                border-radius: 0 10px 10px;
+                line-height: 1.8;
+                font-size: 1.3rem;
+            }
+
         }
     }
-}
-
 }
 
 

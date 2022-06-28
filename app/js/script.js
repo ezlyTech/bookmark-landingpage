@@ -18,6 +18,10 @@ $(window).scroll(function() {
 
 // Feature Tabs
 
-$(function() {
-    $("#tiles__tabs").tabs();
+$(document).ready(functin(){
+    $(tabSelection).click(function(){
+        $(this).addClass("selected1").siblings().removeClass("selected1");
+        $(".tabSelectionContent > p").hide();
+        $($(this).data("value")).fadeIn();
+    }),
 });
