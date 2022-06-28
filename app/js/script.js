@@ -19,9 +19,9 @@ $(window).scroll(function() {
 // Feature Tabs
 
 $(document).ready(function(){ 
-    $("ul li ").click(function(){
+    $("ul li").click(function(){ 
     $(this).addClass("selected").siblings().removeClass("selected");
-    $(".tabSectionContent > p").hide();
+    $(".tabSectionContent > div").hide();
     $($(this).data("value")).fadeIn();
 
 });
