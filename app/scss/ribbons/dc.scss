@@ -1,33 +1,42 @@
 .base{
     .base__wrapper{
-        /*display: flex; */
+        position:relative;
+        img.absolute{
+            position: absolute;
+            top: 25%;
+            right: 0;
+            z-index: -1;
+        }
 
         .base__container{
-            /* display: inline; */
+            display: flex;
+            flex-direction: row-reverse;
 
-            .icon{
-                padding: 100px;
+            .col1 {
+                img {
+                    width: 100%;
+                }
+                max-width: 578px;
             }
+
+      
             .h1{
                 align-content: left;
                 text-align: left;
+                flex: 1;
             }
             .para_1{
                 align-content: left;
                 text-align: left;
-
-            }
-            .new__primary, {
-                background-color: green;
-                display: inline-flex;
             }
 
-            .new__secondary{
-                display: inline-flex;
-                background-color: aqua;
-            }
-            
+            .but{
+                display: flex;
+                gap: 16px;
+            }   
         }
     }
 }
+
+
     
