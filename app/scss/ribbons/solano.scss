@@ -10,40 +10,195 @@ main {
         display:flex;
         flex-direction:column;
         align-items:center;
-       
+            .para {
+                width: 540px;
+                position: relative;
+                height: 84px;
+                text-align: center;
+                right: 0%;
+            }
     }
+    .font {
+        color: $color-black;
+        font-size:20px !important;
+        font-weight: normal;
+    
+    }
+
+
         .faq {
             max-width: 700px;
             margin-top: 2rem;
             padding-bottom: 1rem;
-            border-bottom: 2px solid #242A45;
+            border-bottom: 1px solid #242A45;
             cursor: pointer;
         }
         .questions {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
         }
         .questions h2 {
             font-size: 1.8rem;
         }
         .anws {
+            margin-top: -10px;
             max-height: 0;
             overflow: hidden;
             transition: max-height 1.2s ease;
         }
         .anws p {
-            padding-top: 1rem;
-            line-height: 1.6;
-            font-size: 1.4rem;
+            color: $color-black;
+            opacity: 0.75;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            letter-spacing: 0.15px;
+
         }
+        .faq.active .font {
+            color: $color-red;
+            -webkit-transition: color 0.3s ease-in-out;
+            -moz-transition: color 0.3s ease-in-out;
+            -o-transition: color 0.3s ease-in-out;
+            transition: color 0.3s ease-in-out;
+        }
+
         .faq.active .anws {
             max-height: 300px;
         }
+
         .faq.active svg {
             transform: rotate(180deg);
+ 
         }
         svg {
             transition: transform 0.5s ease-in;
+
         }
 }
+
+.more {
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    transform: translateX(450%);
+    background-color: #5267df;
+    border: 2px solid #5267df;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px -4px rgb(73 93 207 / 20%);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    letter-spacing: .25px;
+    line-height: 28px;
+    padding: 15px 29px;
+    transition: .3s;
+}
+
+
+//mobile
+
+@media only screen and (max-width: 768px) {
+
+    main {
+        margin-bottom: 150px;
+    }
+    .solano {
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        .title{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+                .para {
+                    width: 540px;
+                    position: relative;
+                    height: 84px;
+                    text-align: center;
+                    right: 0%;
+                }
+        }
+        .font {
+            color: $color-black;
+            font-size:20px !important;
+            font-weight: normal;
+        
+        }
+    
+    
+            .faq {
+                max-width: 700px;
+                margin-top: 2rem;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid #242A45;
+                cursor: pointer;
+            }
+            .questions {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+            }
+            .questions h2 {
+                font-size: 1.8rem;
+            }
+            .anws {
+                margin-top: -10px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 1.2s ease;
+            }
+            .anws p {
+                color: $color-black;
+                opacity: 0.75;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 36px;
+                letter-spacing: 0.15px;
+    
+            }
+            .faq.active .font {
+                color: $color-red;
+                -webkit-transition: color 0.3s ease-in-out;
+                -moz-transition: color 0.3s ease-in-out;
+                -o-transition: color 0.3s ease-in-out;
+                transition: color 0.3s ease-in-out;
+            }
+    
+            .faq.active .anws {
+                max-height: 300px;
+            }
+    
+            .faq.active svg {
+                transform: rotate(180deg);
+     
+            }
+            svg {
+                transition: transform 0.5s ease-in;
+    
+            }
+    }
+    .more {
+        margin: 0;
+        position: absolute;
+        top: 165%;
+        transform: translateX(235%);
+        background-color: #5267df;
+        border: 2px solid #5267df;
+        border-radius: 5px;
+        box-shadow: 0 8px 8px -4px rgb(73 93 207 / 20%);
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        letter-spacing: .25px;
+        line-height: 28px;
+        padding: 15px 29px;
+        transition: .3s;
+    }
+ }
