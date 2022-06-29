@@ -42,19 +42,161 @@
             }
 
             .tabSectionContent{
-                background-color: aliceblue;
                 margin: 0 20px;
                 padding: 20px;
                 border-radius: 0 10px 10px;
                 line-height: 1.8;
                 font-size: 1.3rem;
 
+                .SB{
+
+                    .featureTab1{
+                        z-index: 2;
+                        position: relative;
+                        left: -140px;
+                        bottom: -45px;
+
+                    }
+
+                    .RectangleBG{
+                        position: relative;
+                        width: 1000px;
+                        height: 352px;
+                        left: -700px;
+                        top: -220px;
+                        z-index: 1;
+                        background: #5267DF;
+                        border-radius: 316.5px;
+                    }
+
+                    .featureTabText1{
+                        float: right;
+                        position: relative;
+                        width: 40%;
+                        z-index: 4;
+                        left: -50px;
+                        top: 70px;
+
+
+                        .featureButton1{
+                            width: 114px;
+                            height: 48px;
+                            border-radius: 5px;
+                        
+
+                            background: #5267DF;
+                            box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+                            border-radius: 5px;
+                            border-style: none;
+
+                            font-family: 'Rubik';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 28px;
+                            color: aliceblue;
+                        }
+                    }
+                }
+
                 .SS{
-                    display: none;
+                    .featureTab1{
+                        z-index: 2;
+                        position: relative;
+                        left: -140px;
+                        bottom: -45px;
+
+                    }
+
+                    .RectangleBG{
+                        position: relative;
+                        width: 1000px;
+                        height: 352px;
+                        left: -700px;
+                        top: -220px;
+                        z-index: 1;
+                        background: #5267DF;
+                        border-radius: 316.5px;
+                    }
+
+                    .featureTabText1{
+                        float: right;
+                        position: relative;
+                        width: 40%;
+                        z-index: 4;
+                        left: -50px;
+                        top: 70px;
+
+
+                        .featureButton1{
+                            width: 114px;
+                            height: 48px;
+                            border-radius: 5px;
+                        
+
+                            background: #5267DF;
+                            box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+                            border-radius: 5px;
+                            border-style: none;
+
+                            font-family: 'Rubik';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 28px;
+                            color: aliceblue;
+                        }
+                    }
                 }
 
                 .ES{
-                    display: none;
+                    .featureTab1{
+                        z-index: 2;
+                        position: relative;
+                        left: -140px;
+                        bottom: -45px;
+
+                    }
+
+                    .RectangleBG{
+                        position: relative;
+                        width: 1000px;
+                        height: 352px;
+                        left: -700px;
+                        top: -220px;
+                        z-index: 1;
+                        background: #5267DF;
+                        border-radius: 316.5px;
+                    }
+
+                    .featureTabText1{
+                        float: right;
+                        position: relative;
+                        width: 40%;
+                        z-index: 4;
+                        left: -50px;
+                        top: 70px;
+
+
+                        .featureButton1{
+                            width: 114px;
+                            height: 48px;
+                            border-radius: 5px;
+                        
+
+                            background: #5267DF;
+                            box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+                            border-radius: 5px;
+                            border-style: none;
+
+                            font-family: 'Rubik';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 28px;
+                            color: aliceblue;
+                        }
+                    }
                 }
 
             }
