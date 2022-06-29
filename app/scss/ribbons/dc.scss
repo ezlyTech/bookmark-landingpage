@@ -1,0 +1,33 @@
+.base{
+    .base__wrapper{
+        /*display: flex; */
+
+        .base__container{
+            /* display: inline; */
+
+            .icon{
+                padding: 100px;
+            }
+            .h1{
+                align-content: left;
+                text-align: left;
+            }
+            .para_1{
+                align-content: left;
+                text-align: left;
+
+            }
+            .new__primary, {
+                background-color: green;
+                display: inline-flex;
+            }
+
+            .new__secondary{
+                display: inline-flex;
+                background-color: aqua;
+            }
+            
+        }
+    }
+}
+    
