@@ -10,27 +10,36 @@ main {
         display:flex;
         flex-direction:column;
         align-items:center;
-            .para {
-                width: 540px;
-                position: relative;
-                height: 84px;
-                text-align: center;
-                right: 0%;
-            }
     }
+    .para {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 540px;
+        position: relative;
+        height: 56px;
+        text-align: center;
+    }
+
+
     .font {
         color: $color-black;
-        font-size:20px !important;
+        font-size: 18px !important;
         font-weight: normal;
     
     }
 
+    .border {
+        margin-top: 20px;
+        border-top: 1px solid rgba(36, 42, 69, 0.15) ;
+    }
 
         .faq {
-            max-width: 700px;
-            margin-top: 2rem;
+            max-width: 540px;
+            margin-top: 0.5px;
             padding-bottom: 1rem;
-            border-bottom: 1px solid #242A45;
+            border-bottom: 1px solid rgba(36, 42, 69, 0.15);   
             cursor: pointer;
         }
         .questions {
@@ -70,33 +79,43 @@ main {
             max-height: 300px;
         }
 
-        .faq.active svg {
-            transform: rotate(180deg);
+        .faq.active .arrow {
+            color: $color-red;
+            -webkit-transition: color 0.3s ease-out;
+            -moz-transition: color 0.3s ease-out;
+            -o-transition: color 0.3s ease-out;
+            transition: color 0.3s ease-out;
+            transform: rotate(270deg);
  
         }
-        svg {
-            transition: transform 0.5s ease-in;
 
+        .arrow {
+            color: #5267DF;
+            font-size: 45px;
+            transition: transform 0.5s ease-in-out;
+            transform: rotate(90deg);
         }
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
 .more {
-    margin: 0;
-    position: absolute;
-    top: 120%;
-    transform: translateX(450%);
+
     background-color: #5267df;
     border: 2px solid #5267df;
     border-radius: 5px;
     box-shadow: 0 8px 8px -4px rgb(73 93 207 / 20%);
     color: #fff;
     cursor: pointer;
-    display: block;
     letter-spacing: .25px;
     line-height: 28px;
     padding: 15px 29px;
     transition: .3s;
 }
+
 
 
 //mobile
@@ -105,6 +124,8 @@ main {
 
     main {
         margin-bottom: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .solano {
         margin:0 auto;
@@ -115,27 +136,36 @@ main {
             display:flex;
             flex-direction:column;
             align-items:center;
-                .para {
-                    width: 540px;
-                    position: relative;
-                    height: 84px;
-                    text-align: center;
-                    right: 0%;
-                }
         }
+        .para {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            width: 540px;
+            position: relative;
+            height: 56px;
+            text-align: center;
+        }
+    
+    
         .font {
             color: $color-black;
-            font-size:20px !important;
+            font-size: 18px !important;
             font-weight: normal;
         
         }
     
+        .border {
+            margin-top: 20px;
+            border-top: 1px solid rgba(36, 42, 69, 0.15) ;
+        }
     
             .faq {
-                max-width: 700px;
-                margin-top: 2rem;
+                max-width: 540px;
+                margin-top: 0.5px;
                 padding-bottom: 1rem;
-                border-bottom: 1px solid #242A45;
+                border-bottom: 1px solid rgba(36, 42, 69, 0.15);   
                 cursor: pointer;
             }
             .questions {
@@ -175,27 +205,36 @@ main {
                 max-height: 300px;
             }
     
-            .faq.active svg {
-                transform: rotate(180deg);
+            .faq.active .arrow {
+                color: $color-red;
+                -webkit-transition: color 0.3s ease-out;
+                -moz-transition: color 0.3s ease-out;
+                -o-transition: color 0.3s ease-out;
+                transition: color 0.3s ease-out;
+                transform: rotate(270deg);
      
             }
-            svg {
-                transition: transform 0.5s ease-in;
     
+            .arrow {
+                color: #5267DF;
+                font-size: 45px;
+                transition: transform 0.5s ease-in-out;
+                transform: rotate(90deg);
             }
     }
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+      }
     .more {
-        margin: 0;
-        position: absolute;
-        top: 165%;
-        transform: translateX(235%);
+    
         background-color: #5267df;
         border: 2px solid #5267df;
         border-radius: 5px;
         box-shadow: 0 8px 8px -4px rgb(73 93 207 / 20%);
         color: #fff;
         cursor: pointer;
-        display: block;
         letter-spacing: .25px;
         line-height: 28px;
         padding: 15px 29px;
