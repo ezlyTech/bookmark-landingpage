@@ -91,30 +91,21 @@ main {
 
         .arrow {
             color: #5267DF;
-            font-size: 45px;
+            font-size: 30px;
             transition: transform 0.5s ease-in-out;
             transform: rotate(90deg);
         }
 }
 
 .btn {
+
     display: flex;
     justify-content: center;
     margin-top: 70px;
-  }
-.more {
+  } 
 
-    background-color: #5267df;
-    border: 2px solid #5267df;
-    border-radius: 5px;
-    box-shadow: 0 8px 8px -4px rgb(73 93 207 / 20%);
-    color: #fff;
-    cursor: pointer;
-    letter-spacing: .25px;
-    line-height: 28px;
-    padding: 15px 29px;
-    transition: .3s;
-}
+
+
 
 
 
@@ -122,10 +113,15 @@ main {
 
 @media only screen and (max-width: 768px) {
 
+
+    html {
+       width: fit-content;
+
+    }
     main {
+        padding-right: 30px;
+        padding-left: 30px;
         margin-bottom: 150px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     .solano {
         margin:0 auto;
@@ -217,27 +213,18 @@ main {
     
             .arrow {
                 color: #5267DF;
-                font-size: 45px;
+                font-size: 30px;
                 transition: transform 0.5s ease-in-out;
                 transform: rotate(90deg);
             }
     }
+    
     .btn {
+    
         display: flex;
         justify-content: center;
         margin-top: 70px;
-      }
-    .more {
+      } 
     
-        background-color: #5267df;
-        border: 2px solid #5267df;
-        border-radius: 5px;
-        box-shadow: 0 8px 8px -4px rgb(73 93 207 / 20%);
-        color: #fff;
-        cursor: pointer;
-        letter-spacing: .25px;
-        line-height: 28px;
-        padding: 15px 29px;
-        transition: .3s;
-    }
- }
+    
+    }    

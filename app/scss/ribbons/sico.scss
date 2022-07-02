@@ -248,23 +248,28 @@
                 }
     
                 .tabSection{
+                    
                     .selected{
-                        color: red;
-                        border-width: 5px;
+                        color: #FA5959;
+                        border-bottom: 2px solid #FA5959;
+                        bottom: 50%;
                     }
     
                     ul{
-                        margin-left: 40px;
+                       
+                        position: relative; 
+                        left: -18%; 
+                        float: left; 
     
                         li{
                             color: #9194A2;
                             padding:20px;
-                            padding-top: 60px;
+                            padding-top: 30px;
                             padding-bottom: 30px;
                             display: grid;
                             font-size: 20px;
                             cursor: pointer;
-                            width: 100%;
+                            width: 110%;
                             text-align: center;  
                             border-width: thin;
                             border-bottom-style: solid;
@@ -274,9 +279,9 @@
                             top: -10px;
                             transition: top ease 0.5s;
                             color: #FA5959;
-                            border-width: 5px;
+                            border-width: 2px;
                         }
-                    }
+                }
                 }
     
                 .tabSectionContent{
@@ -367,9 +372,10 @@
                             float: right;
                             position: relative;
                             width: 40%;
-                            z-index: 4;
                             left: -50px;
                             top: 70px;
+                            z-index: 5;
+                            background-color: #FA5959;
     
     
                             .featureButton1{
