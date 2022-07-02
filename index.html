@@ -14,15 +14,15 @@
 
 <header>
     <div class="header__wrapper container">
-        <div class="header__logo">
+        <a href="./index.html" class="header__logo">
             <img class="desktop-logo" src="./assets/logo-bookmark.svg" alt="">
             <img class="mobile-logo" src="./assets/logo-white.svg" alt="">
-        </div>
+        </a>
         <div class="header__navs">
             <ul class="nav__items">
-                <li><a href="#">FEATURES</a></li>
+                <li><a href="#features">FEATURES</a></li>
                 <li><a href="#">PRICING</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
                 <li><a href="#">LOGIN</a></li>
             </ul>
             <div class="socials">
@@ -43,18 +43,319 @@
 
 
 <main>
+
+    <!-- HERO -->
     <section class="section base">
         <div class="base__wrapper">
-            <div class="base__container container">
-                <h1>Heading 1</h1>
-                <h2>Heading 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora numquam officiis eligendi? Nisi corporis quasi beatae assumenda ab numquam consectetur error laudantium temporibus sit, modi enim tempore velit dolore?</p>
-                <a href="#">This is a link</a>
-                <button href="#" class="button__primary">Button Primary</button>
-                <button href="#" class="button__secondary">Button Secondary</button>
+          <img src="/assets/Rectangle.png" class="absolute" />
+          <div class="base__container container">
+            <div class="col1">
+              <img src="/assets/illustration-hero.svg" />
+            </div>
+            <div class="col2">
+              <h2 class="h1">
+                A Simple Bookmark 
+                Manager
+              </h2>
+              <p class="para_1">
+                A clean and simple interface to organize your favourite
+                websites. Open a new browser tab and see your sites load instantly. Try it
+                for free.
+              </p>
+              <!--<a href="#">This is a link</a> -->
+              <div class="but">
+                <button href="#" class="button__primary" class="new__primary">
+                  Get it on Chrome
+                </button>
+                <button
+                  href="#"
+                  class="button__secondary"
+                  class="new__secondary"
+                >
+                  Get it on Firefox
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FEATURES -->
+    <section class="sico section" id="features">
+        <div class="tiles__wrapper">
+            <div class="tiles__container container">
+                <div class="tiles__text">
+                    <h1 class="featureTitle">Features</h1>
+                    <p class="featureText">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                </div>
+    
+            <div class="tabSection">
+                
+                    <ul>
+                        <li data-value=".SB" class="selected">Simple Bookmarking</li>
+                        <li data-value=".SS" >Speedy Searching</li>
+                        <li data-value=".ES" >Easy Sharing</li>
+                    </ul>
+                
+    
+                <div class="tabSectionContent">
+                    <div class="SB">
+    
+                        <img src="assets/illustration-features-tab-1.svg" class="featureTab1">
+    
+                        <div class="featureTabText1">
+                            <h3>Bookmark in one click</h3>
+                            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                            <button class="featureButton1">More Info</button>
+                            </div>
+        
+    
+                        <div class="RectangleBG"></div>
+    
+    
+                    
+                    </div> 
+        
+                    <div class="SS">
+                        
+                        <img src="assets/illustration-features-tab-2.svg" class="featureTab1">
+    
+                        <div class="featureTabText1">
+                            <h3>Bookmark in one click</h3>
+                            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                            <button class="featureButton1">More Info</button>
+                            </div>
+        
+    
+                        <div class="RectangleBG"></div>
+    
+                    </div> 
+    
+                    
+        
+                    <div class="ES">
+    
+                        <img src="assets/illustration-features-tab-3.svg" class="featureTab1">
+    
+                        <div class="featureTabText1">
+                            <h3>Bookmark in one click</h3>
+                            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                            <button class="featureButton1">More Info</button>
+                            </div>
+        
+    
+                        <div class="RectangleBG"></div>
+    
+                    </div> 
+                </div>
+    
+            </div>
             </div>
         </div>
-    </section> 
+    </section>
+
+
+
+
+    <!-- BOXES -->
+    <section class="delacruz" id="hero">
+        <h3 class="h3">Download the extension</h3>
+        <p class="para_2">
+          We’ve got more browsers in the pipeline. Please do let us know if <br />
+          you’ve got a favourite you’d like us to prioritize.
+        </p>
+        
+        <div class="parent"> 
+        <div class="container-1">
+          <div class="box">
+          <img src="assets/logo-chrome.svg" class="logos">
+          </div>
+            <div class="box">
+              <h4> Add to Chrome</h4>
+              <p>Minimum version 62</p>
+            </div>
+              <div class= "box new-class"> 
+                <div class="line-container">
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  <div class="circle"> </div>
+                  </div>
+              <button href="#" class="button__primary">
+                Add & Install Extension
+              </button>
+              </div>
+              </div>
+            
+      <div class="container-2">
+        <div class="box1">
+          <img src="assets/logo-firefox.svg" class="logos">
+          </div>
+          <div class="box1">
+            <h4> Add to Firefox</h4>
+            <p>Minimum version 55</p>
+          </div>
+          <div class= "box new-class"> 
+            <div class="line-container">
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              </div>
+            <button href="#" class="button__primary" class="extension">
+              Add & Install Extension
+            </button>
+          </div>
+        </div>
+      
+      <div class="container-3">
+        <div class="box1">
+          <img src="assets/logo-opera.svg" class="logos">
+          </div>
+          <div class="box1">
+            <h4> Add to Opera</h4>
+            <p>Minimum version 46</p>
+          </div>
+          <div class= "box new-class"> 
+            <div class="line-container">
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              <div class="circle"> </div>
+              </div>
+            <button href="#" class="button__primary" class="extension">
+              Add & Install Extension
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
+
+
+
+
+
+    <!-- ACCORDION -->
+    <main>
+    <section class="solano">
+        <h2 class="title">Frequently Asked Questions</h2>
+        <p class="para">
+          Here are some of our FAQs. If you have any other questions you’d like
+          answered please feel free to email us.
+        </p>
+
+        <div class="border">
+          <div class="faq">
+            <div class="questions">
+              <h2 class="font">What is Bookmark?</h2>
+
+              <span class="arrow">&#x3e;</span>
+            </div>
+            <div class="anws">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+                a sapiente obcaecati nobis, quis ea iste pariatur tempore aut!
+                Nostrum itaque quae tenetur iure eveniet culpa numquam deserunt
+                cumque aliquid.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="questions">
+              <h2 class="font">How can I request a new browser?</h2>
+
+              <span class="arrow">&#x3e;</span>
+            </div>
+            <div class="anws">
+              <p>
+                Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+                massa, ultricies non ligula. Suspendisse imperdiet. Vivamus
+                luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdie tVivamus luctus eros
+                aliquet convallis ultricies. Mauris augue massa, ultricies non
+                ligula. Suspendisse imperdiet.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="questions">
+              <h2 class="font">Is there a mobile app?</h2>
+
+              <span class="arrow">&#x3e;</span>
+            </div>
+            <div class="anws">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quibusdam odit eaque corporis molestiae. Veritatis obcaecati
+                voluptate laborum quaerat atque magni consequatur debitis
+                eligendi illo, provident quam numquam. Facilis, sequi veniam?
+              </p>
+            </div>
+          </div>
+
+          <div class="faq">
+            <div class="questions">
+              <h2 class="font">What about other Chromium browsers?</h2>
+
+              <span class="arrow">&#x3e;</span>
+            </div>
+            <div class="anws">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quibusdam odit eaque corporis molestiae. Veritatis obcaecati
+                voluptate laborum quaerat atque magni consequatur debitis
+                eligendi illo, provident quam numquam. Facilis, sequi veniam?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="btn">
+        <button href="#" class="more">More Info</button>
+      </div>
+    </main>
+
+
 </main>
 
 
@@ -65,7 +366,7 @@
 
 
 <footer>
-    <div class="footer__wrapper">
+    <div class="footer__wrapper" id="contact">
         <div class="footer__top">
             <div class="footer-top__container">
                 <p class="top__text">35,000+ ALREADY JOINED</p>
