@@ -22,8 +22,8 @@
 
             .tabSection{
                 .selected{
-                    color: red;
-                    border-width: 5px;
+                    color: #2A2A45;
+                    border-bottom: 5px solid #FA5959;
                 }
 
                 ul{
@@ -31,13 +31,12 @@
 
                     li{
                         color: #9194A2;
-                        padding:20px;
-                        padding-top: 60px;
-                        padding-bottom: 30px;
+                        padding: 42px 27px;
                         display:inline-block;
                         font-size: 20px;
                         cursor: pointer;
-                        width: 28%;
+                        max-width: 243px;
+                        width: 100%;
                         text-align: center;  
                         border-width: thin;
                         border-bottom-style: solid;
@@ -250,7 +249,7 @@
                 .tabSection{
                     
                     .selected{
-                        color: #FA5959;
+                        color: #2A2A45;
                         border-bottom: 2px solid #FA5959;
                         bottom: 50%;
                     }
@@ -278,7 +277,7 @@
                         li:hover{
                             top: -10px;
                             transition: top ease 0.5s;
-                            color: #FA5959;
+                            color: #2A2A45;
                             border-width: 2px;
                         }
                 }
