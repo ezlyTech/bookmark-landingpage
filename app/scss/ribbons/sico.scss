@@ -22,22 +22,23 @@
 
             .tabSection{
                 .selected{
-                    color: red;
-                    border-width: 5px;
+                    color: #2A2A45;
+                    border-bottom: 5px solid #FA5959;
                 }
 
                 ul{
-                    margin-left: 40px;
+                    display: flex;
+                    position: relative;
+                    left: 10%;
 
                     li{
                         color: #9194A2;
-                        padding:20px;
-                        padding-top: 60px;
-                        padding-bottom: 30px;
+                        padding: 42px 27px;
                         display:inline-block;
                         font-size: 20px;
                         cursor: pointer;
-                        width: 28%;
+                        max-width: 243px;
+                        width: 100%;
                         text-align: center;  
                         border-width: thin;
                         border-bottom-style: solid;
@@ -64,7 +65,7 @@
                     .featureTab1{
                         z-index: 2;
                         position: relative;
-                        left: -140px;
+                        left: -40px;
                         bottom: -45px;
 
                     }
@@ -73,7 +74,7 @@
                         position: relative;
                         width: 1000px;
                         height: 352px;
-                        left: -700px;
+                        left: -600px;
                         top: -220px;
                         z-index: 1;
                         background: #5267DF;
@@ -85,7 +86,7 @@
                         position: relative;
                         width: 40%;
                         z-index: 4;
-                        left: -50px;
+                        right: 0px;
                         top: 70px;
 
 
@@ -93,7 +94,6 @@
                             width: 114px;
                             height: 48px;
                             border-radius: 5px;
-                        
 
                             background: #5267DF;
                             box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -107,6 +107,15 @@
                             line-height: 28px;
                             color: aliceblue;
                         }
+
+                        .featureButton1:hover{
+                            background: transparent;
+                            transition: .3s;
+                            color: #5267DF;
+                            border-radius: 5px;
+                            border: 1px solid #5267DF;
+                            cursor: pointer;
+                        }
                     }
                 }
 
@@ -117,8 +126,8 @@
                     .featureTab1{
                         z-index: 2;
                         position: relative;
-                        left: -140px;
-                        bottom: -45px;
+                        left: -0px;
+                        bottom: -55px;
 
                     }
 
@@ -126,8 +135,8 @@
                         position: relative;
                         width: 1000px;
                         height: 352px;
-                        left: -700px;
-                        top: -220px;
+                        left: -600px;
+                        top: -290px;
                         z-index: 1;
                         background: #5267DF;
                         border-radius: 316.5px;
@@ -138,8 +147,9 @@
                         position: relative;
                         width: 40%;
                         z-index: 4;
-                        left: -50px;
+                        right: 0px;
                         top: 70px;
+
 
 
                         .featureButton1{
@@ -170,7 +180,7 @@
                     .featureTab1{
                         z-index: 2;
                         position: relative;
-                        left: -140px;
+                        left: -40px;
                         bottom: -45px;
 
                     }
@@ -179,8 +189,8 @@
                         position: relative;
                         width: 1000px;
                         height: 352px;
-                        left: -700px;
-                        top: -220px;
+                        left: -650px;
+                        top: -250px;
                         z-index: 1;
                         background: #5267DF;
                         border-radius: 316.5px;
@@ -191,15 +201,16 @@
                         position: relative;
                         width: 40%;
                         z-index: 4;
-                        left: -50px;
+                        right: 0px;
                         top: 70px;
+
 
 
                         .featureButton1{
                             width: 114px;
                             height: 48px;
                             border-radius: 5px;
-                        
+                            padding-top: 32px;
 
                             background: #5267DF;
                             box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -232,44 +243,40 @@
                 .tiles__text{
                     text-align: center;
                     
+                    
                     .featureTitle{
                         position: relative;
-                        left: 2%; 
+                        left: 3%;
                        
                     }
     
                     .featureText{
-                        width:90%;
-                        position: relative;
-                        height: 84px;
-                        left: 0%;
-                        right: 0%;
+                        left: 3%;
+                        width: 100%;
                     }
                 }
     
                 .tabSection{
-                    
                     .selected{
-                        color: #FA5959;
-                        border-bottom: 2px solid #FA5959;
-                        bottom: 50%;
+                        color: #2A2A45;
+                        border-bottom: 5px solid #FA5959;
                     }
     
                     ul{
-                       
-                        position: relative; 
-                        left: -18%; 
-                        float: left; 
+                        display: inline-block;
+                        position: relative;
+                        width: 100%;
+                        left: -4%;
+                        
     
                         li{
                             color: #9194A2;
-                            padding:20px;
-                            padding-top: 30px;
-                            padding-bottom: 30px;
-                            display: grid;
+                            padding: 42px 27px;
+                            display:inline-block;
                             font-size: 20px;
                             cursor: pointer;
-                            width: 110%;
+                            max-width: 243px;
+                            width: 100%;
                             text-align: center;  
                             border-width: thin;
                             border-bottom-style: solid;
@@ -278,10 +285,10 @@
                         li:hover{
                             top: -10px;
                             transition: top ease 0.5s;
-                            color: #FA5959;
-                            border-width: 2px;
+                            color: #2A2A45;
+                            border-width: 5px;
                         }
-                }
+                    }
                 }
     
                 .tabSectionContent{
@@ -294,41 +301,39 @@
                     .SB{
     
                         .featureTab1{
-                            width: 100%;
-                            height: auto;
-                            z-index: 2;
                             position: relative;
-                            left: -20px;
-                            bottom: 0px;
-    
+                            width: 135%;
+                            z-index: 5;
+                            left: -45px;
                         }
     
                         .RectangleBG{
                             position: relative;
-                            width: 1000px;
+                            width: 205%;
                             height: 200px;
-                            left: -800px;
-                            top: -151px;
-                            z-index: 1;
+                            left: -110%;
+                            top: -155px;
+                            z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
+                            height: 250px;
+
+
                         }
     
                         .featureTabText1{
-                            text-align: center;
-                            float: right;
                             position: relative;
-                            width: 100%;
-                            height: auto;
-                            left: 0px;
-                            top: 50px;
-    
+                            width: 135%;
+                            text-align: center;
+                            max-width: 768px;
+                            left: 20%;
+                            
+
     
                             .featureButton1{
                                 width: 114px;
                                 height: 48px;
                                 border-radius: 5px;
-                            
     
                                 background: #5267DF;
                                 box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -341,48 +346,54 @@
                                 font-size: 14px;
                                 line-height: 28px;
                                 color: aliceblue;
+                            }
+    
+                            .featureButton1:hover{
+                                background: transparent;
+                                transition: .3s;
+                                color: #5267DF;
+                                border-radius: 5px;
+                                border: 1px solid #5267DF;
+                                cursor: pointer;
                             }
                         }
                     }
     
                     .SS{
     
-                        display: none;
-    
                         .featureTab1{
-                            z-index: 2;
                             position: relative;
-                            left: -140px;
-                            bottom: -45px;
-    
+                            width: 135%;
+                            z-index: 5;
+                            left: -45px;
                         }
     
                         .RectangleBG{
                             position: relative;
-                            width: 1000px;
-                            height: 352px;
-                            left: -700px;
-                            top: -220px;
-                            z-index: 1;
+                            width: 205%;
+                            height: 200px;
+                            left: -110%;
+                            top: -155px;
+                            z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
+                            height: 250px;
+
+
                         }
     
                         .featureTabText1{
-                            float: right;
                             position: relative;
-                            width: 40%;
-                            left: -50px;
-                            top: 70px;
-                            z-index: 5;
-                            background-color: #FA5959;
-    
+                            width: 135%;
+                            text-align: center;
+                            max-width: 768px;
+                            left: 20%;
+
     
                             .featureButton1{
                                 width: 114px;
                                 height: 48px;
                                 border-radius: 5px;
-                            
     
                                 background: #5267DF;
                                 box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -396,46 +407,54 @@
                                 line-height: 28px;
                                 color: aliceblue;
                             }
+    
+                            .featureButton1:hover{
+                                background: transparent;
+                                transition: .3s;
+                                color: #5267DF;
+                                border-radius: 5px;
+                                border: 1px solid #5267DF;
+                                cursor: pointer;
+                            }
                         }
                     }
     
                     .ES{
     
-                        display: none;
-    
                         .featureTab1{
-                            z-index: 2;
                             position: relative;
-                            left: -140px;
-                            bottom: -45px;
-    
+                            width: 135%;
+                            z-index: 5;
+                            left: -45px;
                         }
     
                         .RectangleBG{
                             position: relative;
-                            width: 1000px;
-                            height: 352px;
-                            left: -700px;
-                            top: -220px;
-                            z-index: 1;
+                            width: 205%;
+                            height: 200px;
+                            left: -110%;
+                            top: -155px;
+                            z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
+                            height: 250px;
+
+
                         }
     
                         .featureTabText1{
-                            float: right;
                             position: relative;
-                            width: 40%;
-                            z-index: 4;
-                            left: -50px;
-                            top: 70px;
-    
+                            width: 135%;
+                            text-align: center;
+                            max-width: 768px;
+                            left: 20%;
+                            
+
     
                             .featureButton1{
                                 width: 114px;
                                 height: 48px;
                                 border-radius: 5px;
-                            
     
                                 background: #5267DF;
                                 box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -448,6 +467,15 @@
                                 font-size: 14px;
                                 line-height: 28px;
                                 color: aliceblue;
+                            }
+    
+                            .featureButton1:hover{
+                                background: transparent;
+                                transition: .3s;
+                                color: #5267DF;
+                                border-radius: 5px;
+                                border: 1px solid #5267DF;
+                                cursor: pointer;
                             }
                         }
                     }
@@ -457,6 +485,4 @@
             }
         }
     }
-
 }
-
