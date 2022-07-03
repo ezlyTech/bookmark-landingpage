@@ -242,7 +242,7 @@
     
                 .tiles__text{
                     text-align: center;
-
+                    
                     
                     .featureTitle{
                         position: relative;
@@ -267,6 +267,7 @@
                         position: relative;
                         width: 100%;
                         left: -4%;
+                        
     
                         li{
                             color: #9194A2;
@@ -308,21 +309,24 @@
     
                         .RectangleBG{
                             position: relative;
-                            width: 135%;
+                            width: 205%;
                             height: 200px;
-                            left: -80%;
+                            left: -110%;
                             top: -155px;
                             z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
+                            height: 250px;
 
 
                         }
     
                         .featureTabText1{
                             position: relative;
-                            width: 100%;
+                            width: 135%;
                             text-align: center;
+                            max-width: 768px;
+                            left: 20%;
                             
 
     
@@ -366,23 +370,24 @@
     
                         .RectangleBG{
                             position: relative;
-                            width: 135%;
+                            width: 205%;
                             height: 200px;
-                            left: -80%;
+                            left: -110%;
                             top: -155px;
                             z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
-
+                            height: 250px;
 
 
                         }
     
                         .featureTabText1{
                             position: relative;
-                            width: 100%;
+                            width: 135%;
                             text-align: center;
-                            
+                            max-width: 768px;
+                            left: 20%;
 
     
                             .featureButton1{
@@ -425,22 +430,24 @@
     
                         .RectangleBG{
                             position: relative;
-                            width: 135%;
-                            height: 600px;
-                            left: -80%;
+                            width: 205%;
+                            height: 200px;
+                            left: -110%;
                             top: -155px;
                             z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
+                            height: 250px;
 
 
                         }
     
                         .featureTabText1{
                             position: relative;
-                            width: 150%;
+                            width: 135%;
                             text-align: center;
-                            
+                            max-width: 768px;
+                            left: 20%;
                             
 
     
