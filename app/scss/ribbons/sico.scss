@@ -27,7 +27,7 @@
                 }
 
                 ul{
-                    margin-left: 40px;
+                    display: flex;
 
                     li{
                         color: #9194A2;
@@ -63,7 +63,7 @@
                     .featureTab1{
                         z-index: 2;
                         position: relative;
-                        left: -140px;
+                        left: -40px;
                         bottom: -45px;
 
                     }
@@ -72,7 +72,7 @@
                         position: relative;
                         width: 1000px;
                         height: 352px;
-                        left: -700px;
+                        left: -600px;
                         top: -220px;
                         z-index: 1;
                         background: #5267DF;
@@ -84,15 +84,17 @@
                         position: relative;
                         width: 40%;
                         z-index: 4;
-                        left: -50px;
+                        right: 0px;
                         top: 70px;
 
+                        .featureP{
+    
+                        }
 
                         .featureButton1{
                             width: 114px;
                             height: 48px;
                             border-radius: 5px;
-                        
 
                             background: #5267DF;
                             box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -106,6 +108,15 @@
                             line-height: 28px;
                             color: aliceblue;
                         }
+
+                        .featureButton1:hover{
+                            background: transparent;
+                            transition: .3s;
+                            color: #5267DF;
+                            border-radius: 5px;
+                            border: 1px solid #5267DF;
+                            cursor: pointer;
+                        }
                     }
                 }
 
@@ -116,8 +127,8 @@
                     .featureTab1{
                         z-index: 2;
                         position: relative;
-                        left: -140px;
-                        bottom: -45px;
+                        left: -0px;
+                        bottom: -55px;
 
                     }
 
@@ -125,8 +136,8 @@
                         position: relative;
                         width: 1000px;
                         height: 352px;
-                        left: -700px;
-                        top: -220px;
+                        left: -600px;
+                        top: -290px;
                         z-index: 1;
                         background: #5267DF;
                         border-radius: 316.5px;
@@ -137,8 +148,9 @@
                         position: relative;
                         width: 40%;
                         z-index: 4;
-                        left: -50px;
+                        right: 0px;
                         top: 70px;
+
 
 
                         .featureButton1{
@@ -169,7 +181,7 @@
                     .featureTab1{
                         z-index: 2;
                         position: relative;
-                        left: -140px;
+                        left: -40px;
                         bottom: -45px;
 
                     }
@@ -178,8 +190,8 @@
                         position: relative;
                         width: 1000px;
                         height: 352px;
-                        left: -700px;
-                        top: -220px;
+                        left: -650px;
+                        top: -250px;
                         z-index: 1;
                         background: #5267DF;
                         border-radius: 316.5px;
@@ -190,15 +202,16 @@
                         position: relative;
                         width: 40%;
                         z-index: 4;
-                        left: -50px;
+                        right: 0px;
                         top: 70px;
+
 
 
                         .featureButton1{
                             width: 114px;
                             height: 48px;
                             border-radius: 5px;
-                        
+                            padding-top: 32px;
 
                             background: #5267DF;
                             box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
