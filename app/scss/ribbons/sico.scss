@@ -4,19 +4,23 @@
 
             .tiles__text{
                 text-align: center;
+                justify-content: center;
+                align-items: center;
                 
                 .featureTitle{
-                    position: relative;
-                    left: 2%; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                    
                 }
 
                 .featureText{
-                    width: 540px;
+                    max-width: 543px;
+                    width: 100%;
                     position: relative;
-                    height: 84px;
-                    left: 29%;
-                    right: 0%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
 
@@ -28,8 +32,9 @@
 
                 ul{
                     display: flex;
-                    position: relative;
-                    left: 10%;
+                    padding-left: 0px;
+                    justify-content: center;
+                    align-items: center;
 
                     li{
                         color: #9194A2;
@@ -263,8 +268,7 @@
                     }
     
                     ul{
-                        display: inline-block;
-                        position: relative;
+                        display: column;
                         width: 100%;
                         left: -4%;
                         
@@ -301,18 +305,13 @@
                     .SB{
     
                         .featureTab1{
-                            position: relative;
-                            width: 135%;
+                            width: 100%;
                             z-index: 5;
-                            left: -45px;
+
                         }
     
                         .RectangleBG{
-                            position: relative;
-                            width: 205%;
-                            height: 200px;
-                            left: -110%;
-                            top: -155px;
+                            width: 100%;
                             z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
@@ -322,11 +321,8 @@
                         }
     
                         .featureTabText1{
-                            position: relative;
-                            width: 135%;
+                            width: 100%;
                             text-align: center;
-                            max-width: 768px;
-                            left: 20%;
                             
 
     
