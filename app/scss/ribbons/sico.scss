@@ -15,12 +15,13 @@
                 }
 
                 .featureText{
+                    position: relative;
                     max-width: 543px;
                     width: 100%;
-                    position: relative;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    padding-left: 27%;
                 }
             }
 
@@ -93,6 +94,16 @@
                         z-index: 4;
                         right: 0px;
                         top: 70px;
+                        
+                        .FTTh{
+                            padding-bottom: 20px;
+                            margin: 0;
+                         }
+
+                        .FTTp{
+                           padding-bottom: 32px;
+                           margin: 0;
+                        }
 
 
                         .featureButton1{
@@ -250,14 +261,19 @@
                     
                     
                     .featureTitle{
-                        position: relative;
-                        left: 3%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                        
                     }
     
                     .featureText{
-                        left: 3%;
+                        position: relative;
                         width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-left: 0;
                     }
                 }
     
@@ -268,9 +284,9 @@
                     }
     
                     ul{
-                        display: column;
+                        display: flex;
+                        column-count: 1;
                         width: 100%;
-                        left: -4%;
                         
     
                         li{
