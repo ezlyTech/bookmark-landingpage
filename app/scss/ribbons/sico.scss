@@ -68,6 +68,17 @@
 
                 .SB{
 
+                    .jarvey::before{
+                        content: "";
+                        position: relative;
+                        width: 1000px;
+                        height: 352px;
+                        top: 290px;
+                        z-index: 1;
+                        background: #5267DF;
+                        border-radius: 316.5px;
+                    }
+
                     .featureTab1{
                         z-index: 2;
                         position: relative;
@@ -76,22 +87,13 @@
 
                     }
 
-                    .RectangleBG{
-                        position: relative;
-                        width: 1000px;
-                        height: 352px;
-                        left: -600px;
-                        top: -220px;
-                        z-index: 1;
-                        background: #5267DF;
-                        border-radius: 316.5px;
-                    }
+                    
 
                     .featureTabText1{
                         float: right;
                         position: relative;
                         width: 40%;
-                        z-index: 4;
+                        z-index: 6;
                         right: 0px;
                         top: 70px;
                         
@@ -133,6 +135,9 @@
                             cursor: pointer;
                         }
                     }
+                }
+                .SB::before{
+                    content: "";
                 }
 
                 .SS{
@@ -226,7 +231,7 @@
                             width: 114px;
                             height: 48px;
                             border-radius: 5px;
-                            padding-top: 32px;
+                        
 
                             background: #5267DF;
                             box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
@@ -333,21 +338,26 @@
                         }
     
                         .RectangleBG{
-                            position: absolute;
+                            position:absolute;
                             display: flex;
                             width: 100%;
-                            height: 190px;
-                            left: -10px;
-                            top: 600px;
+                            left: -90px;
+                            top: 725px;
+                            height: 170px;
                             z-index: 2;
                             background: #5267DF;
                             border-radius: 316.5px;
-
-
+                            
                         }
+
     
                         .featureTabText1{
+                            float: right;
+                            position: relative;
                             width: 100%;
+                            z-index: 6;
+                            right: 0px;
+                            top: 70px;
                             text-align: center;
                             
 
@@ -380,9 +390,24 @@
                             }
                         }
                     }
+
+                    .SB::before{
+                        content: "";
+                    }
     
                     .SS{
-    
+                        
+                        .jarvey::before{
+                            content: "";
+                            position: relative;
+                            width: 1000px;
+                            height: 352px;
+                            top: 290px;
+                            z-index: 1;
+                            background: #5267DF;
+                            border-radius: 316.5px;
+                        }
+
                         .featureTab1{
                             position: relative;
                             width: 135%;
