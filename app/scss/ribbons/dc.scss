@@ -72,9 +72,6 @@
           
                 .h1{
                     text-align: center;
-
-                    
-                    
                 }
                 .para_1{
                     align-content: left;
@@ -84,15 +81,12 @@
                 .but{
                     display: flex;
                     gap: 16px;
-                    
-                
+                    flex-wrap: wrap;
+                    justify-content: center;
                 }   
 
                 .new__primary, .new__secondary{
                     padding-top: 10px;
-                    padding-bottom: 10px;
-                    padding-left: 17px;
-                    padding-right: 17px;
                     font-size: 14px;
                 }
             }
